@@ -6,34 +6,34 @@ favicon: images/favicon.ico
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: Hwayong Nam
+title: Ph.D student
+email: hwayong.nam@scale.snu.ac.kr, nhy4916@gmail.com, nhy4916@snu.ac.kr
+website: nam-hwayong.github.io
 
 # Dark Mode (true/false/never)
-darkmode: false
+darkmode: true
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+#twitter_username: facespics
+github_username:  Nam-hwayong
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: Hwayong Nam
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+#additional_links:
+#- title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -46,11 +46,14 @@ additional_links:
 
 # About Section
 # about_title: About Me
-about_profile_image: images/profile.jpg
+about_profile_image: images/ID_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  Hi! I am a Ph.D. candidate at Seoul National University (SNU), advised by Professor Jung Ho Ahn. Before joining SNU, I completed my BSE in Electrical and Electronics Engineering at Chung-Ang University (CAU).
+  My main research area includes computer architecture, DRAM microarchitecture, memory system, and memory reliability and security. 
+#  Recently, I have been focusing on memory system security, particularly related to the DRAM devices 
+#  (e.g., read disturbance errors such as rowhammer/rowpress) and reverse-engineering the operations of commercial processors’ memory controllers. Also, I’m interested in enhancing system reliability against silient data corruptions (SDCs).
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
 content:
   - title: Projects # Title for the section
