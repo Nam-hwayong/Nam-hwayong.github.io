@@ -95,10 +95,8 @@ content:
         #sub_title: ISCA 
         caption: July 2024
         description: | 
-            DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands
-
-            <b style="font-size: 1.5em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
-#            <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
+            <b style="font-size: 1.2em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
+            <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
 
 # Footer
 footer_show_references: false
