@@ -83,7 +83,7 @@ content:
     content:
       - layout: left
         title: Seoul National University
-        link: 
+        #link: 
         # link_text: boringcompany.com
         sub_title: Doctor of Philosophy
         caption: 2021 - present
@@ -95,7 +95,7 @@ content:
       
       - layout: left
         title: Chung-Ang University
-        link: 
+        #link: 
         # link_text: boringcompany.com
         sub_title: Bachelor of Science
         caption: 2015 - 2021
