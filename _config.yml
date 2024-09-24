@@ -12,7 +12,7 @@ email: hwayong.nam@scale.snu.ac.kr, nhy4916@gmail.com, nhy4916@snu.ac.kr
 website: nam-hwayong.github.io
 
 # Dark Mode (true/false/never)
-darkmode: true
+darkmode: false
 
 # Social links
 #twitter_username: facespics
@@ -32,8 +32,8 @@ linkedin_username: hwayong-nam-682b18262
 # Additional icon links
 additional_links:
 - title: Google scholar
- icon: fa-brands fa-google-scholar
- url: https://scholar.google.com/citations?user=-KkBvfUAAAAJ&hl=ko&oi=ao
+  icon: fa-brands fa-google-scholar
+  url: https://scholar.google.com/citations?user=-KkBvfUAAAAJ&hl=ko&oi=ao
 #- title: another link
 #  icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #  url: Link url (eg. https://google.com)
@@ -59,71 +59,70 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 
-content:
-  # - title: Publication # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: top-middle
-  #       title: Super awesome project
-  #       link: github.com/sproogen
-  #       # link_text: Project Website
-  #       additional_links:
-  #         - title:  sproogen/modern-resume-theme
-  #           icon: fab fa-github
-  #           url: github.com/sproogen/modern-resume-theme
-  #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-  #         #   icon: fab fa-github
-  #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-  #       quote: >
-  #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-  #       description: | # this will include new lines to allow paragraphs
-  #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: Seoul National University
-        #link: 
-        # link_text: boringcompany.com
-        sub_title: Doctor of Philosophy
-        caption: 2021 - present
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Ph.D candidate in Department of Intelligence and Information
-            Advisor: Jung Ho Ahn
-      
-      - layout: left
-        title: Chung-Ang University
-        #link: 
-        # link_text: boringcompany.com
-        sub_title: Bachelor of Science
-        caption: 2015 - 2021
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            B.S.E in Electrical and Electronics Engineering
-  - title: Publication # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: ISCA 
-        sub_title: July 2024
-        #link: github.com/sproogen
-        # link_text: Project Website
-        #additional_links:
-          #- title:  sproogen/modern-resume-theme
-          #  icon: fab fa-github
-          #  url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
-        #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-#            <b style="font-size: 1.5em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
-            DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands
-#            <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
+# content:
+#   # - title: Publication # Title for the section
+#   #   layout: list # Type of content section (list/text)
+#   #   content:
+#   #     - layout: top-middle
+#   #       title: Super awesome project
+#   #       link: github.com/sproogen
+#   #       # link_text: Project Website
+#   #       additional_links:
+#   #         - title:  sproogen/modern-resume-theme
+#   #           icon: fab fa-github
+#   #           url: github.com/sproogen/modern-resume-theme
+#   #         # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#   #         #   icon: fab fa-github
+#   #         #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#   #       quote: >
+#   #         This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#   #       description: | # this will include new lines to allow paragraphs
+#   #         I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+#   - title: Experience # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: left
+#         title: Seoul National University
+#         #link: 
+#         # link_text: boringcompany.com
+#         sub_title: Doctor of Philosophy
+#         caption: 2021 - present
+#         #quote: >
+#         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+#         description: | # this will include new lines to allow paragraphs
+#             Ph.D candidate in Department of Intelligence and Information
+#             Advisor: Jung Ho Ahn
+#       - layout: left
+#         title: Chung-Ang University
+#         #link: 
+#         # link_text: boringcompany.com
+#         sub_title: Bachelor of Science
+#         caption: 2015 - 2021
+#         #quote: >
+#         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+#         description: | # this will include new lines to allow paragraphs
+#             B.S.E in Electrical and Electronics Engineering
+#   - title: Publication # Title for the section
+#     layout: list # Type of content section (list/text)
+#     content:
+#       - layout: left
+#         title: ISCA 
+#         sub_title: July 2024
+#         #link: github.com/sproogen
+#         # link_text: Project Website
+#         #additional_links:
+#           #- title:  sproogen/modern-resume-theme
+#           #  icon: fab fa-github
+#           #  url: github.com/sproogen/modern-resume-theme
+#           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+#           #   icon: fab fa-github
+#           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+#         #quote: >
+#         #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+#         description: | # this will include new lines to allow paragraphs
+# #            <b style="font-size: 1.5em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
+#             DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands
+# #            <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
 
 # Footer
 footer_show_references: false
