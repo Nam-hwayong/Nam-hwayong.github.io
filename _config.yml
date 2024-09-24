@@ -91,8 +91,8 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: asdf
-        sub_title: ISCA 
+        title: ISCA
+        #sub_title: ISCA 
         caption: July 2024
         description: | 
             DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands
