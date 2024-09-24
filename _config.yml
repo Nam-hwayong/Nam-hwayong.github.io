@@ -92,11 +92,22 @@ content:
     content:
       - layout: left
         title: ISCA
-        #sub_title: ISCA 
+        #sub_title:
         caption: July 2024
         description: | 
             <b style="font-size: 1.2em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
+            
             <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
+      - layout: left
+        title: ACM ICS
+        #sub_title:
+        caption: May 2024
+        description: | 
+            <b style="font-size: 1.2em;">CLAY: CXL-based Scalable NDP Architecture Accelerating Embedding Layers</b>
+            
+            Sungmin Yun, <b>Hwayong Nam</b>, Kwanhee Kyung, Jaehyun Park, Byeongho Kim, Yongsuk Kwon, Eojin Lee, Jung Ho Ahn
+
+
 
 # Footer
 footer_show_references: false
