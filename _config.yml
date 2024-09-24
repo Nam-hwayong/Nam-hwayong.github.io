@@ -91,22 +91,13 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
+        title: asdf
         sub_title: ISCA 
         caption: July 2024
-        #link: github.com/sproogen
-        # link_text: Project Website
-        #additional_links:
-          #- title:  sproogen/modern-resume-theme
-          #  icon: fab fa-github
-          #  url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        #quote: >
-        #  This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-#            <b style="font-size: 1.5em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
+        description: | 
             DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands
+
+#            <b style="font-size: 1.5em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
 #            <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
 
 # Footer
