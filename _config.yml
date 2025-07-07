@@ -32,7 +32,7 @@ linkedin_username: hwayong-nam-682b18262
 # Additional icon links
 additional_links:
 - title: Google scholar
-  icon: <i class="fa-brands fa-google-scholar"></i>
+  icon: fas fa-graduation-cap
   url: https://scholar.google.com/citations?user=e7tIB9gAAAAJ&hl=ko&authuser=2
 #- title: another link
 #  icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
