@@ -52,7 +52,7 @@ about_content: | # this will include new lines to allow paragraphs
   
   My main research area includes computer architecture, DRAM microarchitecture, memory system, and memory reliability and security. 
 
-  [CV](/pdf/hwayong_nam.pdf)
+  <p style="font-size: 1.5em;">[CV](/pdf/hwayong_nam.pdf)
 #  Recently, I have been focusing on memory system security, particularly related to the DRAM devices 
 #  (e.g., read disturbance errors such as rowhammer/rowpress) and reverse-engineering the operations of commercial processors’ memory controllers. Also, I’m interested in enhancing system reliability against silient data corruptions (SDCs).
 
