@@ -8,7 +8,7 @@ version: 2
 # Personal info
 name: Hwayong Nam
 #title: Ph.D candidate
-email: hwayong.nam@scale.snu.ac.kr, nhy4916@gmail.com, nhy4916@snu.ac.kr
+email: hwayong.nam@scale.snu.ac.kr, nhy4916@gmail.com #, nhy4916@snu.ac.kr
 website: nam-hwayong.github.io
 
 # Dark Mode (true/false/never)
@@ -63,7 +63,7 @@ content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
-      - layout: left
+      - layout: top
         title: Seoul National University
         #link: 
         # link_text: boringcompany.com
@@ -75,7 +75,7 @@ content:
             Ph.D candidate in Department of Intelligence and Information
             
             Advisor: Jung Ho Ahn
-      - layout: left
+      - layout: top
         title: Chung-Ang 
         
               University
