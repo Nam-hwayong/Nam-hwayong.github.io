@@ -60,32 +60,6 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: Seoul National University
-        #link: 
-        # link_text: boringcompany.com
-        sub_title: Doctor of Philosophy
-        caption: 2021 - present
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Ph.D candidate in Department of Intelligence and Information
-            Advisor: Jung Ho Ahn
-      - layout: top
-        title: Chung-Ang 
-              University
-        #link: 
-        # link_text: boringcompany.com
-        sub_title: Bachelor of Science
-        caption: 2015 - 2021
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            B.S.E in Electrical and Electronics Engineering
-
   - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -161,7 +135,31 @@ content:
             <b style="font-size: 1.2em;">GraNDe: Near-data processing architecture with adaptive matrix mapping for graph convolutional networks</b>
             Sungmin Yun, Byeongho Kim, Jaehyun Park, <b>Hwayong Nam</b>, Jung Ho Ahn, Eojin Lee
 
-
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Seoul National University
+        #link: 
+        # link_text: boringcompany.com
+        sub_title: Doctor of Philosophy
+        caption: 2021 - present
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Ph.D candidate in Department of Intelligence and Information
+            Advisor: Jung Ho Ahn
+      - layout: left
+        title: Chung-Ang 
+              University
+        #link: 
+        # link_text: boringcompany.com
+        sub_title: Bachelor of Science
+        caption: 2015 - 2021
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            B.S.E in Electrical and Electronics Engineering
   
 
 
