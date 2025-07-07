@@ -61,7 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
 
 content:
   - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: text # Type of content section (list/text)
     content:
       - layout: top
         title: Seoul National University
@@ -73,7 +73,6 @@ content:
         #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
         description: | # this will include new lines to allow paragraphs
             Ph.D candidate in Department of Intelligence and Information
-            
             Advisor: Jung Ho Ahn
       - layout: top
         title: Chung-Ang 
