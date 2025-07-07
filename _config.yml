@@ -60,36 +60,55 @@ about_content: | # this will include new lines to allow paragraphs
 
 
 content:
-  # - title: Education # Title for the section
-  #   layout: list # Type of content section (list/text)
-  #   content:
-  #     - layout: left
-  #       title: Seoul National University
-  #       #link: 
-  #       # link_text: boringcompany.com
-  #       sub_title: Doctor of Philosophy
-  #       caption: 2021 - present
-  #       #quote: >
-  #       #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #           Ph.D candidate in Department of Intelligence and Information
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Seoul National University
+        #link: 
+        # link_text: boringcompany.com
+        sub_title: Doctor of Philosophy
+        caption: 2021 - present
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            Ph.D candidate in Department of Intelligence and Information
             
-  #           Advisor: Jung Ho Ahn
-  #     - layout: left
-  #       title: Chung-Ang 
+            Advisor: Jung Ho Ahn
+      - layout: left
+        title: Chung-Ang 
         
-  #             University
-  #       #link: 
-  #       # link_text: boringcompany.com
-  #       sub_title: Bachelor of Science
-  #       caption: 2015 - 2021
-  #       #quote: >
-  #       #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-  #       description: | # this will include new lines to allow paragraphs
-  #           B.S.E in Electrical and Electronics Engineering
+              University
+        #link: 
+        # link_text: boringcompany.com
+        sub_title: Bachelor of Science
+        caption: 2015 - 2021
+        #quote: >
+        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
+        description: | # this will include new lines to allow paragraphs
+            B.S.E in Electrical and Electronics Engineering
+
   - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
     content:
+      - layout: left
+        title: ASPLOS
+        #sub_title:
+        caption: March 2025
+        description: | 
+            <b style="font-size: 1.2em;">M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems</b>
+
+            Yan Sun, Jongyul Kim, Zeduo Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, <b>Hwayong Nam</b>, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim
+
+      - layout: left
+        title: ASPLOS
+        #sub_title:
+        caption: March 2025
+        description: | 
+            <b style="font-size: 1.2em;">Marionette: A RowHammer Attack via Row Coupling</b>
+
+            Seungmin Baek, Minbok Wi, Seonyong Park, <b>Hwayong Nam</b>, Michael Jaemin Kim, Nam Sung Kim, Jung Ho Ahn
+
       - layout: left
         title: ISCA
         #sub_title:
@@ -98,6 +117,7 @@ content:
             <b style="font-size: 1.2em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
             
             <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
+
       - layout: left
         title: ACM ICS
         #sub_title:
@@ -106,6 +126,55 @@ content:
             <b style="font-size: 1.2em;">CLAY: CXL-based Scalable NDP Architecture Accelerating Embedding Layers</b>
             
             Sungmin Yun, <b>Hwayong Nam</b>, Kwanhee Kyung, Jaehyun Park, Byeongho Kim, Yongsuk Kwon, Eojin Lee, Jung Ho Ahn
+
+      - layout: left
+        title: ASPLOS
+        #sub_title:
+        caption: April 2024
+        description: | 
+            <b style="font-size: 1.2em;">TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks</b>
+            
+            Chihun Song, Michael Jaemin Kim, Tianchen Wang, Houxiang Ji, Jinghan Huang, Ipoom Jeong, Jaehyun Park, <b>Hwayong Nam</b>, Minbok Wi, Jung Ho Ahn, Nam Sung Kim
+
+      - layout: left
+        title: MICRO
+        #sub_title:
+        caption: May 2024
+        description: | 
+            <b style="font-size: 1.2em;">How to kill the second bird with one ecc: The pursuit of row hammer resilient dram</b>
+            
+            Michael Jaemin Kim, Minbok Wi, Jaehyun Park, Seoyoung Ko, Jaeyoung Choi, <b>Hwayong Nam</b>, Nam Sung Kim, Jung Ho Ahn, Eojin Lee
+
+      - layout: left
+        title: CAL
+        #sub_title:
+        caption: July 2023
+        description: | 
+            <b style="font-size: 1.2em;">X-ray: Discovering dram internal structure and error characteristics by issuing memory commands</b>
+            
+            <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
+
+      - layout: left
+        title: TC
+        #sub_title:
+        caption: June 2023
+        description: | 
+            <b style="font-size: 1.2em;">GraNDe: Efficient near-data processing architecture for graph neural networks</b>
+            
+            Sungmin Yun, <b>Hwayong Nam</b>, Jaehyun Park, Byeongho Kim, Jung Ho Ahn, Eojin Lee
+
+      - layout: left
+        title: CAL
+        #sub_title:
+        caption: June 2022
+        description: | 
+            <b style="font-size: 1.2em;">GraNDe: Near-data processing architecture with adaptive matrix mapping for graph convolutional networks</b>
+            
+            Sungmin Yun, Byeongho Kim, Jaehyun Park, <b>Hwayong Nam</b>, Jung Ho Ahn, Eojin Lee
+
+
+  
+
 
 
 
