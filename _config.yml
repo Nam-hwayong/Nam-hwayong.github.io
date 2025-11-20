@@ -75,7 +75,7 @@ content:
         description: | 
             <b style="font-size: 1.2em;">SoK: Systematizing a Decade of Architectural RowHammer Defenses\\Through the Lens of Streaming Algorithms</b>
 
-            Michael Jaemin Kim, Seungmin Baek, Jumin Kim, Hwayong Nam, Nam Sung Kim, Jung Ho Ahn
+            Michael Jaemin Kim, Seungmin Baek, Jumin Kim, <b>Hwayong Nam</b>, Nam Sung Kim, Jung Ho Ahn
 
       - layout: left
         title: HPCA
@@ -84,7 +84,7 @@ content:
         description: | 
             <b style="font-size: 1.2em;">RoMe: Row Granularity Access Memory System for Large Language Models</b>
 
-            Hwayong Nam, Seungmin Baek, Jumin Kim, Michael Jaemin Kim, and Jung Ho Ahn
+            <b>Hwayong Nam</b>, Seungmin Baek, Jumin Kim, Michael Jaemin Kim, and Jung Ho Ahn
 
 
       - layout: left
