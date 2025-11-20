@@ -67,6 +67,35 @@ content:
   - title: Publication # Title for the section
     layout: list # Type of content section (list/text)
     content:
+
+      - layout: left
+        title: S&P
+        #sub_title:
+        caption: May 2026
+        description: | 
+            <b style="font-size: 1.2em;">SoK: Systematizing a Decade of Architectural RowHammer Defenses\\Through the Lens of Streaming Algorithms</b>
+
+            Michael Jaemin Kim, Seungmin Baek, Jumin Kim, Hwayong Nam, Nam Sung Kim, Jung Ho Ahn
+
+      - layout: left
+        title: HPCA
+        #sub_title:
+        caption: January 2026
+        description: | 
+            <b style="font-size: 1.2em;">RoMe: Row Granularity Access Memory System for Large Language Models</b>
+
+            Hwayong Nam, Seungmin Baek, Jumin Kim, Michael Jaemin Kim, and Jung Ho Ahn
+
+
+      - layout: left
+        title: CAL
+        #sub_title:
+        caption: July 2025
+        description: | 
+            <b style="font-size: 1.2em;">Per-Row Activation Counting on Real Hardware: Demystifying Performance Overheads</b>
+
+            Jumin Kim, Seungmin Baek, Minbok Wi, <b>Hwayong Nam</b>, Michael Jaemin Kim, Sukhan Lee, Kyomin Sohn, Jung Ho Ahn
+
       - layout: left
         title: ASPLOS
         #sub_title:
