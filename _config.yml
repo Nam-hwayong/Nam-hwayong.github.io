@@ -50,7 +50,7 @@ about_profile_image: images/ID_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
   Hi! I am a Ph.D. candidate at Seoul National University (SNU), advised by Professor Jung Ho Ahn. Before joining SNU, I completed my BSE in Electrical and Electronics Engineering at Chung-Ang University (CAU).
   
-  My main research area includes computer architecture, DRAM microarchitecture, memory system, and memory reliability and security. 
+  My main research area includes computer architecture, DRAM microarchitecture, memory system, memory reliability/security and LLMs. 
 
   For more details, please refer to my [CV](https://drive.google.com/file/d/1foQiRAWBbPesP2C-eGsCPT__lKlL6cQb/view?usp=drive_link).
 
