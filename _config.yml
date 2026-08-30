@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Hwayong Nam
-#title: Ph.D candidate
+title: Ph.D. Candidate @ SNU · Visiting Scholar @ UIUC
 email: hwayong.nam@scale.snu.ac.kr, nhy4916@gmail.com #, nhy4916@snu.ac.kr
 website: nam-hwayong.github.io
 
@@ -48,164 +48,180 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/ID_photo.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi! I am a Ph.D. candidate at Seoul National University (SNU), advised by Professor Jung Ho Ahn. Before joining SNU, I completed my BSE in Electrical and Electronics Engineering at Chung-Ang University (CAU).
-  
-  My main research area includes computer architecture, DRAM microarchitecture, memory system, memory reliability/security and LLMs. 
+  Hi! I am a computer architecture and systems researcher — a Ph.D. candidate at Seoul National University (SNU, Ph.D. expected Feb. 2027), advised by Professor Jung Ho Ahn, and currently a visiting scholar at the University of Illinois Urbana-Champaign (UIUC) working with Professor Nam Sung Kim. Before joining SNU, I completed my B.S. in Electrical and Electronics Engineering at Chung-Ang University (CAU).
+
+  My research focuses on memory systems for AI workloads. I have extensive hands-on experience in real-hardware DRAM characterization (FPGA-based test platforms for DDR4/DDR5/HBM), memory controller design and simulation, and memory-system architecture for LLM inference, recommendation, and GNN workloads. I led the design of <b>RoMe</b> (HPCA'26), a row-granularity memory system for LLM serving, and <b>DRAMScope</b> (ISCA'24), which reverse-engineers DRAM microarchitecture from commodity chips; I co-designed <b>ARC</b> (MICRO'26), an adaptive hotness monitoring unit for CXL tiered memory.
+
+  I have 15 publications at ISCA, HPCA, ASPLOS, MICRO, and IEEE S&P, and 10 patent applications (US, CN, PCT, KR). My research goal: make memory the accelerator, not the bottleneck, for large-scale AI.
 
   For more details, please refer to my [CV](https://drive.google.com/file/d/1foQiRAWBbPesP2C-eGsCPT__lKlL6cQb/view?usp=drive_link).
 
-  
-#  Recently, I have been focusing on memory system security, particularly related to the DRAM devices 
-#  (e.g., read disturbance errors such as rowhammer/rowpress) and reverse-engineering the operations of commercial processors’ memory controllers. Also, I’m interested in enhancing system reliability against silient data corruptions (SDCs).
-
-#  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
-
-
-
-
 content:
-  - title: Publication # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
-
       - layout: left
-        title: S&P
-        #sub_title:
-        caption: May 2026
-        description: | 
-            <b style="font-size: 1.2em;">SoK: Systematizing a Decade of Architectural RowHammer Defenses Through the Lens of Streaming Algorithms</b>
-
-            Michael Jaemin Kim, Seungmin Baek, Jumin Kim, <b>Hwayong Nam</b>, Nam Sung Kim, Jung Ho Ahn
-
+        title: University of Illinois Urbana-Champaign
+        sub_title: Visiting Scholar (Prof. Nam Sung Kim)
+        caption: Oct. 2025 – Present
+        description: |
+            - <b>CXL tiered memory</b> — co-designed ARC (MICRO'26), a reconfigurable CXL hotness-monitoring unit implemented in RTL on an Altera Agilex CXL device with an Intel Xeon host; up to 24.9% speedup over static trackers with 28.2% less area
+            - <b>RowHammer mitigation</b> — co-designed PVAC (ISCA'26), a victim-row-based scheme that cuts the overhead of per-row activation counting
+            - <b>DRAM reliability</b> — running FPGA-based error characterization on commodity DRAM to guide stronger but cost-effective ECC design
       - layout: left
-        title: HPCA
-        #sub_title:
-        caption: January 2026
-        description: | 
+        title: Seoul National University, SCALE Lab
+        sub_title: Graduate Research Assistant (Prof. Jung Ho Ahn)
+        caption: Mar. 2021 – Present
+        description: |
+            - <b>Memory systems for LLM inference</b> — led RoMe (HPCA'26), a row-granularity access memory system for memory-bound LLM serving; 2 KR patents on HBM control filed
+            - <b>Real-hardware DRAM characterization</b> — built an FPGA-based platform that issues raw commands to DDR4/DDR5 chips and reverse-engineered internal organization and error behavior of DRAMs from major vendors (X-ray, CAL'23; DRAMScope, ISCA'24); validated RowHammer attacks and defenses on real devices (Marionette, ASPLOS'25; TAROT, ASPLOS'24; S&P'26 SoK)
+            - <b>Near-data processing for AI</b> — co-designed CXL-based NDP for recommendation embedding layers (CLAY, ICS'24) and GNN inference (GraNDe, TC'23)
+      - layout: left
+        title: Samsung Electronics, Memory Division
+        sub_title: Research Intern
+        caption: Nov. 2024 – Feb. 2025
+        description: |
+            Modeled and evaluated a DDR5 memory controller for a CXL memory controller in simulation
+      - layout: left
+        title: Samsung Electronics, Memory Division
+        sub_title: Research Intern
+        caption: Jul. 2023 – Aug. 2023
+        description: |
+            Hands-on experiments on an HBM-PIM-attached FPGA platform
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: Seoul National University
+        sub_title: Ph.D. in Intelligence and Information Convergence
+        caption: Mar. 2021 – Feb. 2027 (expected)
+        description: |
+            Advisor: Prof. Jung Ho Ahn
+      - layout: left
+        title: Chung-Ang University
+        sub_title: B.S. in Electrical and Electronics Engineering
+        caption: Mar. 2015 – Feb. 2021
+        description: |
+            Military service, Republic of Korea, Jul. 2016 – Apr. 2018
+  - title: Selected Publications
+    layout: list
+    content:
+      - layout: left
+        title: HPCA 2026
+        description: |
             <b style="font-size: 1.2em;">RoMe: Row Granularity Access Memory System for Large Language Models</b>
 
-            <b>Hwayong Nam</b>, Seungmin Baek, Jumin Kim, Michael Jaemin Kim, and Jung Ho Ahn
-
-
+            <b>Hwayong Nam</b>*, S. Baek*, J. Kim, M. J. Kim, J. Ahn (*equal contribution)
       - layout: left
-        title: CAL
-        #sub_title:
-        caption: July 2025
-        description: | 
-            <b style="font-size: 1.2em;">Per-Row Activation Counting on Real Hardware: Demystifying Performance Overheads</b>
+        title: MICRO 2026
+        description: |
+            <b style="font-size: 1.2em;">ARC: Adaptive Reconfigurable CXL Hotness Monitoring</b>
 
-            Jumin Kim, Seungmin Baek, Minbok Wi, <b>Hwayong Nam</b>, Michael Jaemin Kim, Sukhan Lee, Kyomin Sohn, Jung Ho Ahn
-
+            C. Song, <b>Hwayong Nam</b>, H. Wang, E. Na, H. Park, T. Lee, J. Ahn, N. S. Kim
       - layout: left
-        title: ASPLOS
-        #sub_title:
-        caption: March 2025
-        description: | 
+        title: arXiv 2025
+        description: |
+            <b style="font-size: 1.2em;">The New LLM Bottleneck: A Systems Perspective on Latent Attention and Mixture-of-Experts</b>
+
+            S. Yun, S. Park, <b>Hwayong Nam</b>, Y. Lee, G. Lee, K. Kyung, S. Kim, N. S. Kim, J. Kim, H. Kim, J. Cho, S. Baek, J. Ahn
+      - layout: left
+        title: ASPLOS 2025
+        description: |
             <b style="font-size: 1.2em;">M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems</b>
 
-            Yan Sun, Jongyul Kim, Zeduo Yu, Jiyuan Zhang, Siyuan Chai, Michael Jaemin Kim, <b>Hwayong Nam</b>, Jaehyun Park, Eojin Na, Yifan Yuan, Ren Wang, Jung Ho Ahn, Tianyin Xu, Nam Sung Kim
-
+            Y. Sun, J. Kim, Z. Yu, J. Zhang, S. Chai, M. J. Kim, <b>Hwayong Nam</b>, J. Park, E. Na, Y. Yuan, R. Wang, J. Ahn, T. Xu, N. S. Kim
       - layout: left
-        title: ASPLOS
-        #sub_title:
-        caption: March 2025
-        description: | 
+        title: ISCA 2024
+        description: |
+            <b style="font-size: 1.2em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
+
+            <b>Hwayong Nam</b>, S. Baek, M. Wi, M. J. Kim, J. Park, C. Song, N. S. Kim, J. Ahn
+      - layout: left
+        title: IEEE CAL 2023
+        description: |
+            <b style="font-size: 1.2em;">X-ray: Discovering DRAM Internal Structure and Error Characteristics by Issuing Memory Commands</b>
+
+            <b>Hwayong Nam</b>, S. Baek, M. Wi, M. J. Kim, J. Park, C. Song, N. S. Kim, J. Ahn
+  - title: Additional Publications
+    layout: list
+    content:
+      - layout: left
+        title: ISCA 2026
+        description: |
+            <b style="font-size: 1.2em;">PVAC: A RowHammer Mitigation Architecture Exploiting Per-Victim-Row Counting</b>
+
+            J. Kim, S. Baek, <b>Hwayong Nam</b>, M. Wi, N. S. Kim, J. Ahn
+      - layout: left
+        title: IEEE S&P 2026
+        description: |
+            <b style="font-size: 1.2em;">SoK: Systematizing a Decade of Architectural RowHammer Defenses Through the Lens of Streaming Algorithms</b>
+
+            M. J. Kim, S. Baek, J. Kim, <b>Hwayong Nam</b>, N. S. Kim, J. Ahn
+      - layout: left
+        title: IEEE CAL 2025
+        description: |
+            <b style="font-size: 1.2em;">Per-Row Activation Counting on Real Hardware: Demystifying Performance Overheads</b>
+
+            J. Kim, S. Baek, M. Wi, <b>Hwayong Nam</b>, M. J. Kim, S. Lee, K. Sohn, J. Ahn
+      - layout: left
+        title: ASPLOS 2025
+        description: |
             <b style="font-size: 1.2em;">Marionette: A RowHammer Attack via Row Coupling</b>
 
-            Seungmin Baek, Minbok Wi, Seonyong Park, <b>Hwayong Nam</b>, Michael Jaemin Kim, Nam Sung Kim, Jung Ho Ahn
-
+            S. Baek, M. Wi, S. Park, <b>Hwayong Nam</b>, M. J. Kim, N. S. Kim, J. Ahn
       - layout: left
-        title: ISCA
-        #sub_title:
-        caption: July 2024
-        description: | 
-            <b style="font-size: 1.2em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
-            
-            <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
-
-      - layout: left
-        title: ACM ICS
-        #sub_title:
-        caption: May 2024
-        description: | 
+        title: ACM ICS 2024
+        description: |
             <b style="font-size: 1.2em;">CLAY: CXL-based Scalable NDP Architecture Accelerating Embedding Layers</b>
 
-            Sungmin Yun, <b>Hwayong Nam</b>, Kwanhee Kyung, Jaehyun Park, Byeongho Kim, Yongsuk Kwon, Eojin Lee, Jung Ho Ahn
-
+            S. Yun, <b>Hwayong Nam</b>, K. Kyung, J. Park, B. Kim, Y. Kwon, E. Lee, J. Ahn
       - layout: left
-        title: ASPLOS
-        #sub_title:
-        caption: April 2024
-        description: | 
+        title: ASPLOS 2024
+        description: |
             <b style="font-size: 1.2em;">TAROT: A CXL SmartNIC-Based Defense Against Multi-bit Errors by Row-Hammer Attacks</b>
 
-            Chihun Song, Michael Jaemin Kim, Tianchen Wang, Houxiang Ji, Jinghan Huang, Ipoom Jeong, Jaehyun Park, <b>Hwayong Nam</b>, Minbok Wi, Jung Ho Ahn, Nam Sung Kim
-
+            C. Song, M. J. Kim, T. Wang, H. Ji, J. Huang, I. Jeong, J. Park, <b>Hwayong Nam</b>, M. Wi, J. Ahn, N. S. Kim
       - layout: left
-        title: MICRO
-        #sub_title:
-        caption: May 2024
-        description: | 
-            <b style="font-size: 1.2em;">How to kill the second bird with one ecc: The pursuit of row hammer resilient dram</b>
+        title: MICRO 2023
+        description: |
+            <b style="font-size: 1.2em;">How to Kill the Second Bird with One ECC: The Pursuit of Row Hammer Resilient DRAM</b>
 
-            Michael Jaemin Kim, Minbok Wi, Jaehyun Park, Seoyoung Ko, Jaeyoung Choi, <b>Hwayong Nam</b>, Nam Sung Kim, Jung Ho Ahn, Eojin Lee
-
+            M. J. Kim, M. Wi, J. Park, S. Ko, J. Choi, <b>Hwayong Nam</b>, N. S. Kim, J. Ahn, E. Lee
       - layout: left
-        title: CAL
-        #sub_title:
-        caption: July 2023
-        description: | 
-            <b style="font-size: 1.2em;">X-ray: Discovering dram internal structure and error characteristics by issuing memory commands</b>
+        title: IEEE TC 2023
+        description: |
+            <b style="font-size: 1.2em;">GraNDe: Efficient Near-Data Processing Architecture for Graph Neural Networks</b>
 
-            <b>Hwayong Nam</b>, Seungmin Baek, Minbok Wi, Michael Jaemin Kim, Jaehyun Park, Chihun Song, Nam Sung Kim, Jung Ho Ahn
-
+            S. Yun, <b>Hwayong Nam</b>, J. Park, B. Kim, J. Ahn, E. Lee
       - layout: left
-        title: TC
-        #sub_title:
-        caption: June 2023
-        description: | 
-            <b style="font-size: 1.2em;">GraNDe: Efficient near-data processing architecture for graph neural networks</b>
+        title: IEEE CAL 2022
+        description: |
+            <b style="font-size: 1.2em;">GraNDe: Near-Data Processing Architecture with Adaptive Matrix Mapping for Graph Convolutional Networks</b>
 
-            Sungmin Yun, <b>Hwayong Nam</b>, Jaehyun Park, Byeongho Kim, Jung Ho Ahn, Eojin Lee
+            S. Yun, B. Kim, J. Park, <b>Hwayong Nam</b>, J. Ahn, E. Lee
+  - title: Patents
+    layout: text
+    content: |
+      10 applications, all pending
 
-      - layout: left
-        title: CAL
-        #sub_title:
-        caption: June 2022
-        description: | 
-            <b style="font-size: 1.2em;">GraNDe: Near-data processing architecture with adaptive matrix mapping for graph convolutional networks</b>
-
-            Sungmin Yun, Byeongho Kim, Jaehyun Park, <b>Hwayong Nam</b>, Jung Ho Ahn, Eojin Lee
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top
-        title: Seoul National University
-        #link: 
-        # link_text: boringcompany.com
-        sub_title: Doctor of Philosophy
-        caption: 2021 - present
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Ph.D candidate in Department of Intelligence and Information
-
-            Advisor: Jung Ho Ahn
-
-      - layout: top
-        title: Chung-Ang 
-              University
-        #link: 
-        # link_text: boringcompany.com
-        sub_title: Bachelor of Science
-        caption: 2015 - 2021
-        #quote: >
-        #  Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            B.S.E in Electrical and Electronics Engineering
-  
-
+      - <b>Memory Controller and Operation Method Thereof</b> (with Samsung Electronics) — US 19/002,383 · CN 202411903289.8 · KR 10-2024-0050775
+      - <b>Semiconductor Device and Method of Operating the Same</b> — PCT/KR2024/015034 · KR 10-2024-0110034 · KR 10-2024-0117102
+      - <b>High-Bandwidth Memory Control Using Row-Granularity Read/Write Commands</b> — KR 10-2025-0160771
+      - <b>High-Bandwidth Memory Control Using Virtual Banks Grouped by Bank Index Across Pseudo-Channels</b> — KR 10-2025-0160770
+      - <b>Semiconductor Device and Method of Operating the Same</b> — KR 10-2026-0156913 · KR 10-2026-0156914
+  - title: Technical Skills
+    layout: text
+    content: |
+      - <b>Programming languages</b> — C/C++, Python, CUDA, Verilog, SystemVerilog, Bash
+      - <b>Memory & hardware</b> — DDR4/DDR5, HBM2E, FPGA-based DRAM test platforms (DRAM-Bender), memory controller design, RowHammer/PRAC, ECC, CXL (Type-2/3 FPGA devices, CHMU), RTL design and synthesis, memory simulators (Ramulator)
+      - <b>Systems & ML</b> — Linux kernel memory management (page migration, tiering, MGLRU), PMU-based performance profiling, LLM inference profiling
+      - <b>EDA & FPGA tools</b> — Cadence Xcelium, Synopsys Design Compiler, AMD Vivado, Altera Quartus
+  - title: Program Committee & Teaching
+    layout: text
+    content: |
+      - Technical Program Committee, HPCA 2027
+      - Artifact Evaluation Committee, ISPASS 2025
+      - Teaching Assistant, Programming Methodology, Seoul National University, Spring 2021
 
 
 
