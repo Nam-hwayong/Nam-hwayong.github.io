@@ -83,7 +83,6 @@ content:
         description: |
             - Modeled a DDR5 memory controller in simulation as part of a CXL memory controller design, covering command scheduling and DRAM timing behavior
             - Evaluated design choices (scheduling policies, timing parameters) on memory-intensive workloads to analyze bandwidth and latency trade-offs
-            - Co-invented a pending patent with Samsung: "Memory Controller and Operation Method Thereof" (US/CN/KR applications)
       - layout: left
         title: Samsung Electronics, Memory Division
         sub_title: Research Intern
@@ -108,48 +107,15 @@ content:
             <b>B.S. in Electrical and Electronics Engineering</b>
 
             Military service, Republic of Korea, Jul. 2016 – Apr. 2018
-  - title: Selected Publications
+  - title: Publications
     layout: list
     content:
-      - layout: left
-        title: HPCA 2026
-        description: |
-            <b style="font-size: 1.2em;">RoMe: Row Granularity Access Memory System for Large Language Models</b>
-
-            <b>Hwayong Nam</b>*, S. Baek*, J. Kim, M. J. Kim, J. Ahn (*equal contribution)
       - layout: left
         title: MICRO 2026
         description: |
             <b style="font-size: 1.2em;">ARC: Adaptive Reconfigurable CXL Hotness Monitoring</b>
 
             C. Song, <b>Hwayong Nam</b>, H. Wang, E. Na, H. Park, T. Lee, J. Ahn, N. S. Kim
-      - layout: left
-        title: arXiv 2025
-        description: |
-            <b style="font-size: 1.2em;">The New LLM Bottleneck: A Systems Perspective on Latent Attention and Mixture-of-Experts</b>
-
-            S. Yun, S. Park, <b>Hwayong Nam</b>, Y. Lee, G. Lee, K. Kyung, S. Kim, N. S. Kim, J. Kim, H. Kim, J. Cho, S. Baek, J. Ahn
-      - layout: left
-        title: ASPLOS 2025
-        description: |
-            <b style="font-size: 1.2em;">M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems</b>
-
-            Y. Sun, J. Kim, Z. Yu, J. Zhang, S. Chai, M. J. Kim, <b>Hwayong Nam</b>, J. Park, E. Na, Y. Yuan, R. Wang, J. Ahn, T. Xu, N. S. Kim
-      - layout: left
-        title: ISCA 2024
-        description: |
-            <b style="font-size: 1.2em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
-
-            <b>Hwayong Nam</b>, S. Baek, M. Wi, M. J. Kim, J. Park, C. Song, N. S. Kim, J. Ahn
-      - layout: left
-        title: IEEE CAL 2023
-        description: |
-            <b style="font-size: 1.2em;">X-ray: Discovering DRAM Internal Structure and Error Characteristics by Issuing Memory Commands</b>
-
-            <b>Hwayong Nam</b>, S. Baek, M. Wi, M. J. Kim, J. Park, C. Song, N. S. Kim, J. Ahn
-  - title: Additional Publications
-    layout: list
-    content:
       - layout: left
         title: ISCA 2026
         description: |
@@ -163,6 +129,18 @@ content:
 
             M. J. Kim, S. Baek, J. Kim, <b>Hwayong Nam</b>, N. S. Kim, J. Ahn
       - layout: left
+        title: HPCA 2026
+        description: |
+            <b style="font-size: 1.2em;">RoMe: Row Granularity Access Memory System for Large Language Models</b>
+
+            <b>Hwayong Nam</b>*, S. Baek*, J. Kim, M. J. Kim, J. Ahn (*equal contribution)
+      - layout: left
+        title: arXiv 2025
+        description: |
+            <b style="font-size: 1.2em;">The New LLM Bottleneck: A Systems Perspective on Latent Attention and Mixture-of-Experts</b>
+
+            S. Yun, S. Park, <b>Hwayong Nam</b>, Y. Lee, G. Lee, K. Kyung, S. Kim, N. S. Kim, J. Kim, H. Kim, J. Cho, S. Baek, J. Ahn
+      - layout: left
         title: IEEE CAL 2025
         description: |
             <b style="font-size: 1.2em;">Per-Row Activation Counting on Real Hardware: Demystifying Performance Overheads</b>
@@ -171,9 +149,21 @@ content:
       - layout: left
         title: ASPLOS 2025
         description: |
+            <b style="font-size: 1.2em;">M5: Mastering Page Migration and Memory Management for CXL-based Tiered Memory Systems</b>
+
+            Y. Sun, J. Kim, Z. Yu, J. Zhang, S. Chai, M. J. Kim, <b>Hwayong Nam</b>, J. Park, E. Na, Y. Yuan, R. Wang, J. Ahn, T. Xu, N. S. Kim
+      - layout: left
+        title: ASPLOS 2025
+        description: |
             <b style="font-size: 1.2em;">Marionette: A RowHammer Attack via Row Coupling</b>
 
             S. Baek, M. Wi, S. Park, <b>Hwayong Nam</b>, M. J. Kim, N. S. Kim, J. Ahn
+      - layout: left
+        title: ISCA 2024
+        description: |
+            <b style="font-size: 1.2em;">DRAMScope: Uncovering DRAM Microarchitecture and Characteristics by Issuing Memory Commands</b>
+
+            <b>Hwayong Nam</b>, S. Baek, M. Wi, M. J. Kim, J. Park, C. Song, N. S. Kim, J. Ahn
       - layout: left
         title: ACM ICS 2024
         description: |
@@ -192,6 +182,12 @@ content:
             <b style="font-size: 1.2em;">How to Kill the Second Bird with One ECC: The Pursuit of Row Hammer Resilient DRAM</b>
 
             M. J. Kim, M. Wi, J. Park, S. Ko, J. Choi, <b>Hwayong Nam</b>, N. S. Kim, J. Ahn, E. Lee
+      - layout: left
+        title: IEEE CAL 2023
+        description: |
+            <b style="font-size: 1.2em;">X-ray: Discovering DRAM Internal Structure and Error Characteristics by Issuing Memory Commands</b>
+
+            <b>Hwayong Nam</b>, S. Baek, M. Wi, M. J. Kim, J. Park, C. Song, N. S. Kim, J. Ahn
       - layout: left
         title: IEEE TC 2023
         description: |
