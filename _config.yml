@@ -81,27 +81,32 @@ content:
         sub_title: Research Intern
         caption: Nov. 2024 – Feb. 2025
         description: |
-            Modeled and evaluated a DDR5 memory controller for a CXL memory controller in simulation
+            - Modeled a DDR5 memory controller in simulation as part of a CXL memory controller design, covering command scheduling and DRAM timing behavior
+            - Evaluated design choices (scheduling policies, timing parameters) on memory-intensive workloads to analyze bandwidth and latency trade-offs
+            - Co-invented a pending patent with Samsung: "Memory Controller and Operation Method Thereof" (US/CN/KR applications)
       - layout: left
         title: Samsung Electronics, Memory Division
         sub_title: Research Intern
         caption: Jul. 2023 – Aug. 2023
         description: |
-            Hands-on experiments on an HBM-PIM-attached FPGA platform
+            - Conducted hands-on experiments on an FPGA platform attached to HBM-PIM (processing-in-memory) devices
+            - Ran and profiled memory-bound kernels to characterize the performance and programming model of PIM offloading
   - title: Education
     layout: list
     content:
       - layout: left
         title: Seoul National University
-        sub_title: Ph.D. in Intelligence and Information Convergence
         caption: Mar. 2021 – Feb. 2027 (expected)
         description: |
+            <b>Ph.D. in Intelligence and Information Convergence</b>
+
             Advisor: Prof. Jung Ho Ahn
       - layout: left
         title: Chung-Ang University
-        sub_title: B.S. in Electrical and Electronics Engineering
         caption: Mar. 2015 – Feb. 2021
         description: |
+            <b>B.S. in Electrical and Electronics Engineering</b>
+
             Military service, Republic of Korea, Jul. 2016 – Apr. 2018
   - title: Selected Publications
     layout: list
